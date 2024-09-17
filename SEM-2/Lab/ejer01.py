@@ -15,7 +15,7 @@ def bitStrings(n):
     # Construir las cadenas de bits de longitud n
     return [digito + cadena for digito in ['0', '1'] for cadena in cadenas_mas_cortas]
 
-#Este es el usuario Nilton taco con cuenta professional:
+#Este es el usuario Nilton Taco con cuenta institucional
 
 if __name__ == "__main__":
     # Ejecutar y mostrar el resultado para cadenas de bits de longitud 3
