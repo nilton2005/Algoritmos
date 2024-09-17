@@ -14,6 +14,7 @@ def bitStrings(n):
     cadenas_mas_cortas = bitStrings(n - 1)
     # Construir las cadenas de bits de longitud n
     return [digito + cadena for digito in ['0', '1'] for cadena in cadenas_mas_cortas]
+
 #Este es el usuario Nilton taco con cuenta professional:
 
 if __name__ == "__main__":
